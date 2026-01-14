@@ -1,19 +1,17 @@
 Project Overview
 
-This is a .NET Console Application designed following Clean Architecture principles.
-It demonstrates a well-structured .NET solution with clear separation of concerns across layers.
+This is a .NET Console Application built following Clean Architecture principles.
+It demonstrates a well-structured solution with clear separation of concerns across layers.
 
-The application supports asynchronous operations like creating, updating, deleting, and retrieving data, while keeping business logic independent from infrastructure details.
+The application supports asynchronous operations for creating, updating, deleting, and retrieving data, keeping business logic independent from infrastructure details.
 
 Architecture
 
-Domain — core entities and business rules 
+Domain — core entities and business rules
 
-Application — use cases, interfaces, and application logic
+Infrastructure — EF Core, database context, repository and application logic
 
-Infrastructure — EF Core, database context, repository implementations
-
-WebApi — API endpoints for external interaction 
+WebApi — API endpoints for external interaction
 
 Technologies
 
@@ -24,8 +22,6 @@ Entity Framework Core
 Clean Architecture
 
 Async / Await
-
-Repository Pattern
 
 Purpose
 
